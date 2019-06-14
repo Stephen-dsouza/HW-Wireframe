@@ -1,0 +1,16 @@
+
+body{font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: '#777';
+    background: '#777';
+    width: '960px';
+    font-size: '18px';
+    border-block: 96;
+}
+
+    Header, Nav, Section, Aside, and Footer
+   {background: '#ebebeb';}
+   article
+   {
+    color: '#ebebeb',
+    background '#777;
+   }

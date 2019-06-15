@@ -6,34 +6,56 @@ body {
   font-size: 18px;
   margin: 0 auto;
 }
+h1,
+h2,
+p {
+  color: burlywood;
+}
 
+h3 {
+  color: darkgreen;
+}
 header,
 nav,
-section,
 aside,
 footer {
   background: #ebebeb;
 }
 article {
-    background: #777;
-}
-h1,
-h2,
-p {
-  color: #777;
-  background: #ebebeb;
+  background: #777;
 }
 
-section {
-  width: 495px;
-}
-header,
-nav,
-section {
+* {
+  box-sizing: border-box;
   text-align: center;
-  margin: 5px;
-  padding: 2px; 
 }
-.container1{
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+  
+}
+.container1 {
+  float: left;
+  width:495px;
+  background-color: aquamarine;
+  height:auto;
+  margin: 5px;
+  padding: 5px;
+}
 
+.container2 {
+  float: left;
+  width:420px;
+  background-color: aquamarine;
+  height:auto;
+  margin: 5px;
+  padding: 5px;
+}
+.aside {
+  background-color: chocolate;
+}
+
+section {
+  background: #ebebeb;
 }

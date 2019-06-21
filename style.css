@@ -32,23 +32,25 @@ article {
 .clearfix::after {
   content: "";
   display: block;
-  clear: both;
-  
-}
+  clear: both;}
+  .container{
+    width 0 auto;
+  }
+
 .container1 {
   float: left;
   width:495px;
   background-color: aquamarine;
-  height:auto;
+  height:300px;;
   margin: 5px;
   padding: 5px;
 }
 
 .container2 {
   float: left;
-  width:420px;
+  width:440px;
   background-color: aquamarine;
-  height:auto;
+  height:300px;;
   margin: 5px;
   padding: 5px;
 }
